@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  ${data.license}
+  ${data.license  === "MIT" ? "[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)" : data.license === "GNU GPLv3" ? "[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)" : ""}
   
   
   ## Badges

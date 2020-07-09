@@ -35,9 +35,8 @@ const questions = [
       name: "license",
       choices: [
           "MIT",
-          "GNU GPLv3",
-          "Apache License 2.0",
-          "ISC License"
+          "GNU GPLv3"
+          // "ISC License"
       ]
   },
   {
@@ -84,7 +83,6 @@ function init() {
     data.badges = response.badges;
     data.contributors = response.contributors;
     data.tests = response.tests;
-  
     const readMeString = generateMarkdown(data);
     writeToFile(readMeString);
 });

@@ -1,9 +1,9 @@
  
-  # readme generator
+  # ljasf
 
   ## Description 
   
-  description for project
+  asdf
   
   
   ## Table of Contents (Optional)
@@ -16,32 +16,32 @@
   
   ## Installation
   
-  ....installation is easy
+  234
   
   
   ## Usage 
   
-  format
+  asdf
   
   ## Credits
   
-  none
+  fa
   
   ## License
   
-  MIT
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   
   
   ## Badges
   
-  Last updated 5 mins ago
+  License MIT
   
   
   ## Contributing
   
-  none
+  asdf
   
   ## Tests
   
-  none
+  we
   
