@@ -16,14 +16,15 @@
 
 
 
-var inquirer = require("inquirer");
+const inquirer = require("inquirer");
+const fs = require('fs');
 
-inquirer
+const response = inquirer
   .prompt([
     {
       type: "input",
       message: "Enter your project title..",
-      name: "project name"
+      name: "projectName"
     },
     {
       type: "input",
@@ -56,14 +57,14 @@ inquirer
             "ISC License"
         ]
     },
-    {
-        type: "list",
-        message: "Select what badges you would like..",
-        name: "badges",
-        choices: [
+    // {
+    //     type: "list",
+    //     message: "Select what badges you would like..",
+    //     name: "badges",
+    //     choices: [
 
-        ]
-    },
+    //     ]
+    // },
     {
         type: "input",
         message: "List any and all contributors..",
@@ -74,4 +75,7 @@ inquirer
         message: "List any tests that a user can perform..",
         name: "tests"
     },
-  ])
+])
+
+const projectResponse = response.projectName;
+console.log(projectResponse);
