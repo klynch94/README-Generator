@@ -1,9 +1,9 @@
  
-  # lkjasdf
+  # readme generator
 
   ## Description 
   
-  jiowjf
+  description for project
   
   
   ## Table of Contents (Optional)
@@ -16,16 +16,16 @@
   
   ## Installation
   
-  24
+  ....installation is easy
   
   
   ## Usage 
   
-  2asdf
+  format
   
   ## Credits
   
-  234
+  none
   
   ## License
   
@@ -39,9 +39,9 @@
   
   ## Contributing
   
-  24sa
+  none
   
   ## Tests
   
-  asdf
+  none
   
