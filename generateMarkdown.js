@@ -36,7 +36,7 @@ function generateMarkdown(data) {
   
   ## Badges
   
-  ${data.badges}
+  ${data.badges === "Open Source" ? "[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)" : data.badges === "Ages 20-30" ? "[![ForTheBadge 20-30](http://ForTheBadge.com/images/badges/ages-20-30.svg)](http://ForTheBadge.com)" : data.badges === "Built With Love" ? "[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)" : ""}
   
   
   ## Contributing

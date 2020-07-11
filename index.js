@@ -36,7 +36,6 @@ const questions = [
       choices: [
           "MIT",
           "GNU GPLv3"
-          // "ISC License"
       ]
   },
   {
@@ -44,9 +43,9 @@ const questions = [
       message: "Select what badges you would like..",
       name: "badges",
       choices: [
-        "Last updated 5 mins ago",
-        "License MIT",
-        "0 GitHub issues",
+        "Open Source",
+        "Ages 20-30",
+        "Built With Love",
       ]
   },
   {
