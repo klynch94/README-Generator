@@ -1,4 +1,4 @@
-// function to generate markdown for README
+// function to generate markdown for README. It includes all of the content needed for the readme with the variables taken from the prompts.
 function generateMarkdown(data) {
   return ` 
   # ${data.title}

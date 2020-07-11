@@ -1,8 +1,9 @@
+// files required to make application work.
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown');
 
-// array of questions for user
+// array of questions for user. these prompt the user for the information.
 const questions = [
   {
     type: "input",
@@ -60,18 +61,19 @@ const questions = [
   },
 ];
 
-// function to write README file
+// function to create and write a new markdown file
 function writeToFile(readMeString) {
   fs.writeFile("./README.md", readMeString, function (err) {
     if (err) throw err;
     console.log('Success!');
 })};
 
-// function to initialize program
+// function to begin the program..
 function init() {
   const response = inquirer
   .prompt(questions)
   .then(function(response) { 
+    // created an object to save all user responses
     const data ={}
     data.title = response.projectName;
     data.description = response.description;
@@ -87,7 +89,7 @@ function init() {
 });
 }
 
-// function call to initialize program
+// initialize program
 init();
 
 
