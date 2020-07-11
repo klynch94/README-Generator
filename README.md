@@ -1,3 +1,6 @@
+ The application generates a ReadMe markdown file based on prompts made within the command line. I used the npm Inquirer package to generate prompts and saved the users input into a ReadMe template. There is a table of contents that is linked to certain sections of the file if it becomes lengthy.
+ 
+ Below is an example of a ReadMe file that is generated from the application:
  
   # README Generator
 
