@@ -1,9 +1,9 @@
  
-  # kieran
+  # README Generator
 
   ## Description 
   
-  lynch
+  This application provides the ability to generate README.md files by following prompts and questions about the application
   
   
   ## Table of Contents (Optional)
@@ -16,16 +16,16 @@
   
   ## Installation
   
-  kljsadirfa
+  First you have to install the Inquirier package from npm, then you have to run the application in Node
   
   
   ## Usage 
   
-  jiasofj
+  The application prompts the user with questions about their project, and uses those responses to create a README file for said project
   
   ## Credits
   
-  j;oiwej
+  GitHub badges and licenses
   
   ## License
   
@@ -39,9 +39,9 @@
   
   ## Contributing
   
-  none
+  Kieran Lynch
   
   ## Tests
   
-  none
+  After the prompts have been followed, make sure a README.md file is added to your project folder. Also, run a preview on this file to ensure all badges and licenses are inserted properly.
   
